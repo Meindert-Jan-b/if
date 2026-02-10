@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <title>Configuratie</title>
+  <script type="module"
+    src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js">
+  </script>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #111;
+      color: white;
+      text-align: center;
+    }
+    model-viewer {
+      width: 100%;
+      height: 100vh;
+    }
+  </style>
+</head>
+<body>
+  <h1>Auto configuratie</h1>
+  <model-viewer
+    src="6c397942fb5245bfb5f1ee17c93d654d.fbx.gltf.glb"
+    camera-controls
+    auto-rotate
+    background-color="#ffffff">
+  </model-viewer>
+</body>
+</html>
